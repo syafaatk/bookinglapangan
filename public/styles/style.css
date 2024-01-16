@@ -1,0 +1,2696 @@
+.siraga-home {
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.siraga-home .div {
+    background-color: #fdfdfd;
+    width: 1440px;
+    height: 1272px;
+    position: relative;
+}
+
+.siraga-home .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 88px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: var(--header-shadow);
+}
+
+.siraga-home .icon-frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 26px;
+    left: 1043px;
+}
+
+.siraga-home .notification-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(notification-icon.svg);
+    background-size: 100% 100%;
+}
+
+.siraga-home .group {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: 22px;
+}
+
+.siraga-home .overlap-group {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: -1px;
+    left: -1px;
+    background-color: #cf3d57;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #ffffff;
+}
+
+.siraga-home .element {
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    top: 2px;
+    left: 5px;
+}
+
+.siraga-home .vector {
+    position: absolute;
+    width: 1px;
+    height: 36px;
+    top: 26px;
+    left: 1106px;
+}
+
+.siraga-home .group-2 {
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    top: 20px;
+    left: 1131px;
+}
+
+.siraga-home .group-3 {
+    position: absolute;
+    width: 147px;
+    height: 39px;
+    top: 5px;
+    left: 0;
+}
+
+.siraga-home .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    white-space: nowrap;
+}
+
+.siraga-home .group-4 {
+    position: absolute;
+    width: 147px;
+    height: 14px;
+    top: 25px;
+    left: 0;
+}
+
+.siraga-home .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+}
+
+.siraga-home .group-5 {
+    position: absolute;
+    width: 121px;
+    height: 14px;
+    top: 0;
+    left: 28px;
+}
+
+.siraga-home .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 7px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+}
+
+.siraga-home .mask-group {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 161px;
+}
+
+.siraga-home .siraga-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+}
+
+.siraga-home .img {
+    position: relative;
+    width: 34.65px;
+    height: 46px;
+}
+
+.siraga-home .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "REBELTON-Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #f58465;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+}
+
+.siraga-home .header-menu {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.siraga-home .p {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 36px;
+    white-space: nowrap;
+}
+
+.siraga-home .card {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+}
+
+.siraga-home .card-frame {
+    display: flex;
+    flex-direction: column;
+    width: 241px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 56px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 4px;
+    box-shadow: var(--med-shadow-opt-2);
+}
+
+.siraga-home .group-6 {
+    position: relative;
+    width: 134px;
+    height: 72px;
+    margin-left: -1.5px;
+    margin-right: -3.5px;
+}
+
+.siraga-home .text-wrapper-5 {
+    position: absolute;
+    top: 48px;
+    left: 0;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.sidemang-booking .text-wrapper-5-1 {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+
+.siraga-home .booking-icon {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 0;
+    left: 47px;
+}
+
+.siraga-home .spearator {
+    position: absolute;
+    width: 1240px;
+    height: 1px;
+    top: 333px;
+    left: 100px;
+}
+
+.siraga-home .group-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 1202px;
+    left: 0;
+    background: linear-gradient(180deg, rgb(42, 144, 184) 0%, rgb(40.82, 117.55, 163.47) 39.48%, rgb(39, 77, 132) 100%);
+}
+
+.siraga-home .group-7 {
+    position: relative;
+    width: 540px;
+    height: 50px;
+    top: 10px;
+    left: 450px;
+}
+
+.siraga-home .div-wrapper {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    top: 0;
+    left: 213px;
+}
+
+.siraga-home .group-8 {
+    position: relative;
+    width: 176px;
+    height: 31px;
+    top: 10px;
+    left: 6px;
+}
+
+.siraga-home .dinas-komunikasi-dan {
+    position: absolute;
+    width: 137px;
+    height: 27px;
+    top: 4px;
+    left: 39px;
+}
+
+.siraga-home .logo-kominfo-without {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.siraga-home .group-9 {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    top: 0;
+    left: 0;
+}
+
+.siraga-home .group-10 {
+    position: relative;
+    width: 118px;
+    height: 32px;
+    top: 10px;
+    left: 30px;
+}
+
+.siraga-home .LOGO-KOTA-PALEMBANG {
+    position: absolute;
+    width: 26px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+}
+
+.siraga-home .pemerintah-kota {
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    top: 4px;
+    left: 36px;
+}
+
+.siraga-home .logo-bsre-wrapper {
+    position: absolute;
+    width: 113px;
+    height: 50px;
+    top: 0;
+    left: 426px;
+}
+
+.siraga-home .logo-bsre {
+    position: absolute;
+    width: 88px;
+    height: 35px;
+    top: 8px;
+    left: 13px;
+    object-fit: cover;
+}
+
+.siraga-home .lapangan-frame {
+    display: flex;
+    flex-direction: column;
+    width: 1240px;
+    align-items: flex-start;
+    gap: 24px;
+    position: absolute;
+    top: 366px;
+    left: 100px;
+}
+
+.siraga-home .header {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: transparent;
+}
+
+.siraga-home .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}
+
+.sidemang-booking .text-wrapper-5-1 {
+    width: 166px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22.4px;
+    position: relative;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    letter-spacing: 0;
+  }
+
+  .sidemang-booking .text-wrapper-6-1 {
+    width: 166px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22.4px;
+    position: relative;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    letter-spacing: 0;
+  }
+
+  .sidemang-booking .text-wrapper-7-1 {
+    position: relative;
+    width: 166px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+
+.siraga-home .card-frame-2 {
+    display: flex;
+    height: 331px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.siraga-home .dispora-card {
+    display: flex;
+    flex-direction: column;
+    height: 333px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 0px 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    margin-left: -1px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #d9dce7;
+}
+
+.siraga-home .image-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 0 0 auto;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.siraga-home .image {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 164px;
+}
+
+.siraga-home .vector-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 4px;
+    margin-bottom: -2px;
+}
+
+.siraga-home .text-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    padding: 0px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.siraga-home .label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 4px 8px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--dispora-color);
+    border-radius: 20px;
+}
+
+.siraga-home .text-wrapper-7 {
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    color: var(--white);
+    font-size: 10px;
+    line-height: 13px;
+    white-space: nowrap;
+    position: relative;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.siraga-home .text-wrapper-8 {
+    align-self: stretch;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    color: var(--tittle);
+    font-size: 16px;
+    line-height: 22.4px;
+    position: relative;
+    font-weight: 400;
+    letter-spacing: 0;
+}
+
+.siraga-home .text-wrapper-9 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--body);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+}
+
+.siraga-home .detail-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 0px 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}
+
+.siraga-home .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--dispora-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 24px;
+    white-space: nowrap;
+}
+
+.siraga-home .arrow-icon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+}
+
+.siraga-home .dispora-card-2 {
+    display: flex;
+    flex-direction: column;
+    height: 333px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 0px 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #d9dce7;
+}
+
+.siraga-home .image-2 {
+    height: 164px;
+    object-fit: cover;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+}
+
+.siraga-home .dispora-card-3 {
+    margin-right: -1px;
+    display: flex;
+    flex-direction: column;
+    height: 333px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 0px 0px 16px;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-top: -1px;
+    margin-bottom: -1px;
+    border-radius: 12px;
+    border: 1px solid;
+    border-color: #d9dce7;
+}
+
+
+.sidemang-booking {  
+    background-color: #f5f6fa;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}    
+
+.sidemang-booking .div {  
+    background-color: #f5f6fa;
+    width: 1440px;
+    height: 1252px;
+    position: relative;
+}    
+
+.sidemang-booking .navbar {  
+    position: absolute;
+    width: 1440px;
+    height: 88px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: var(--header-shadow);
+}    
+
+.sidemang-booking .icon-frame {  
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 28px;
+    left: 1043px;
+}    
+
+.sidemang-booking .notification-icon {  
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(notification-icon.svg);
+    background-size: 100% 100%;
+}    
+
+.sidemang-booking .group {  
+    position: relative;
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: 22px;
+}    
+
+.sidemang-booking .overlap-group {  
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: -1px;
+    left: -1px;
+    background-color: #cf3d57;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #ffffff;
+}    
+
+.sidemang-booking .element {  
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    top: 2px;
+    left: 5px;
+}    
+
+.sidemang-booking .vector {  
+    position: absolute;
+    width: 1px;
+    height: 36px;
+    top: 26px;
+    left: 1106px;
+}    
+
+.sidemang-booking .group-2 {  
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    top: 20px;
+    left: 1131px;
+}    
+
+.sidemang-booking .group-3 {  
+    position: absolute;
+    width: 147px;
+    height: 39px;
+    top: 5px;
+    left: 0;
+}    
+
+.sidemang-booking .text-wrapper {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16
+    .8px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .group-4 {  
+    position: absolute;
+    width: 147px;
+    height: 14px;
+    top: 25px;
+    left: 0;
+}    
+
+.sidemang-booking .text-wrapper-2 {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14
+    .4px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .group-5 {  
+    position: absolute;
+    width: 121px;
+    height: 14px;
+    top: 0;
+    left: 28px;
+}    
+
+.sidemang-booking .text-wrapper-3 {  
+    position: absolute;
+    top: 0;
+    left: 7px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14
+    .4px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .mask-group {  
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 161px;
+}    
+
+.sidemang-booking .siraga-icon {  
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+}    
+
+.sidemang-booking .img {  
+    position: relative;
+    width: 34
+    .65px;
+    height: 46px;
+}    
+
+.sidemang-booking .text-wrapper-4 {  
+    position: relative;
+    width: fit-content;
+    font-family: "REBELTON-Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #f58465;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .overlap-wrapper {  
+    position: absolute;
+    width: 700px;
+    height: 46px;
+    top: 144px;
+    left: 370px;
+}    
+
+.sidemang-booking .overlap {  
+    position: relative;
+    height: 46px;
+}    
+
+.sidemang-booking .vector-2 {  
+    position: absolute;
+    width: 529px;
+    height: 1px;
+    top: 8px;
+    left: 88px;
+    object-fit: cover;
+} 
+.sidemang-booking .vector-2-1 {
+    position: absolute;
+    width: 529px;
+    height: 1px;
+    top: 8px;
+    left: 88px;
+    object-fit: cover;
+  }
+  
+  .sidemang-booking .vector-3 {
+    position: absolute;
+    width: 263px;
+    height: 1px;
+    top: 8px;
+    left: 88px;
+    object-fit: cover;
+  }   
+
+.sidemang-booking .frame {  
+    display: flex;
+    width: 700px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: absolute;
+    top: 0;
+    left: 0;
+}    
+
+.sidemang-booking .flow-frame {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .ellipse {  
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1
+    .4px solid;
+    border-color: #f58465;
+}    
+
+.sidemang-booking .ellipse-1 {
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1.4px solid;
+  border-color: var(--dispora-color);
+}
+
+.sidemang-booking .ellipse-1-0 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1.4px solid;
+    border-color: var(--dispora-color);
+  }
+
+  .sidemang-booking .ellipse-1-1 {
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1.4px solid;
+    border-color: var(--dispora-color);
+  }
+
+.sidemang-booking .text-wrapper-5 {  
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22
+    .4px;
+    white-space: nowrap;
+}    
+.sidemang-booking .text-wrapper-6 {
+    width: 166px;
+    font-size: 16px;
+    text-align: center;
+    line-height: 22.4px;
+    position: relative;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    letter-spacing: 0;
+  }
+
+.sidemang-booking .ellipse-1-2 {  
+    border-color: #ced0d2;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1
+    .4px solid;
+}  
+.sidemang-booking .ellipse-2 {  
+  border-color: #ced0d2;
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1
+  .4px solid;
+}     
+
+.sidemang-booking .text-wrapper-6 {  
+    position: relative;
+    width: 166px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22
+    .4px;
+}    
+
+.sidemang-booking .text-wrapper-7 {
+    position: relative;
+    width: 166px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22.4px;
+  }
+
+.sidemang-booking .ellipse-3 {  
+    border-color: #cfd1d2;
+    position: relative;
+    width: 16px;
+    height: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1
+    .4px solid;
+}    
+
+.sidemang-booking .frame-2 {  
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 16px;
+    position: absolute;
+    top: 384px;
+    left: 219px;
+}    
+
+.sidemang-booking .frame-2-1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+
+  .sidemang-booking .text-frame-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+
+.sidemang-booking .date-frame {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 40px 32px;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 12px;
+}    
+
+.sidemang-booking .div-2 {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .header {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: transparent;
+}    
+
+.sidemang-booking .image {  
+    position: relative;
+    width: 134px;
+    height: 46px;
+}   
+
+.sidemang-booking .image-1 {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+  }
+
+.sidemang-booking .p {  
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 22
+    .4px;
+    white-space: nowrap;
+}
+
+.sidemang-booking .p-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .frame-3 {  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .chevron-left {  
+    position: relative;
+    width: 24px;
+    height: 24px;
+}    
+
+.sidemang-booking .text-wrapper-7 {  
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--tittle);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25
+    .2px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .frame-4 {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 48px;
+    position: relative;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .div-3 {  
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .text-wrapper-8 {  
+    position: relative;
+    width: 30px;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #e26d66;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19
+    .6px;
+}    
+
+.sidemang-booking .text-wrapper-9 {  
+    position: relative;
+    width: 30px;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19
+    .6px;
+}
+
+.sidemang-booking .text-wrapper-9-1 {
+    width: fit-content;
+    margin-top: -1px;
+    font-size: 20px;
+    line-height: 28px;
+    white-space: nowrap;
+    position: relative;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    letter-spacing: 0;
+  }
+
+.sidemang-booking .date-frame-2 {  
+    flex-direction: column;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 40px;
+    position: relative;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .text-wrapper-10 {  
+    position: relative;
+    width: 30px;
+    margin-top: -1px;
+    opacity: 0
+    .5;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--date-past-color);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19
+    .6px;
+}    
+
+.sidemang-booking .form-element-text {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 48px;
+    background-color: var(--white-90);
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: var(--grey-90);
+  }
+  
+  .sidemang-booking .form-atom-value {
+    display: inline-flex;
+    align-items: center;
+    padding: 0px 0px 0px 4px;
+    position: relative;
+  }
+
+  .sidemang-booking .value-text {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--body-2);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .text-wrapper-10-1 {
+    color: #f58465;
+  }
+
+.sidemang-booking .text-wrapper-11 {  
+    position: relative;
+    width: 30px;
+    margin-top: -1px;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--date-past-color);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19
+    .6px;
+}
+
+.sidemang-booking .text-wrapper-11-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .text-wrapper-12 {  
+    position: relative;
+    width: 30px;
+    margin-top: -1px;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--tittle);
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 19
+    .6px;
+}   
+
+.sidemang-booking .text-wrapper-12-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1fcc;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .lokasi-dan-waktu {  
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    align-items: flex-start;
+    gap: 48px;
+    padding: 24px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 12px;
+}    
+
+.sidemang-booking .div-4 {  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .text-wrapper-13 {  
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25
+    .2px;
+    white-space: nowrap;
+}
+
+.sidemang-booking .text-wrapper-13-1 {
+    position: relative;
+    width: 273px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+  }
+
+.sidemang-booking .lap-frame {  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .lapangan-frame {  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #d9dce7;
+}    
+
+.sidemang-booking .field-frame {  
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+} 
+
+.sidemang-booking .field-frame-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .sidemang-booking .form-field {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .sidemang-booking .label {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: transparent;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+
+  .sidemang-booking .label-2 {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+  }
+  .sidemang-booking .span {
+    color: #1f1f1f;
+  }
+
+.sidemang-booking .rectangle {  
+    position: relative;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}  
+
+.sidemang-booking .rectangle-1 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    background-color: #d9dce7;
+  }
+
+.sidemang-booking .text-frame {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2px;
+    position: relative;
+    flex: 0 0 auto;
+}  
+
+.sidemang-booking .text-frame-1 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    flex: 0 0 auto;
+  }
+
+  .sidemang-booking .text-frame-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+
+.sidemang-booking .text-wrapper-14 {  
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .text-wrapper-15 {  
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--body);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .text-wrapper-14-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1fcc;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+  
+  .sidemang-booking .text-wrapper-15-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #666666cc;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .header-frame {  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}    
+.sidemang-booking .time-frame-1 {
+    display: flex;
+    width: 205px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 939px;
+    left: 1010px;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #d9dce7;
+  }
+
+.sidemang-booking .header-frame-1 {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+
+.sidemang-booking .text-wrapper-16 {  
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--dispora-color);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .text-wrapper-16-1 {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .time-frame {  
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+}    
+
+.sidemang-booking .div-wrapper {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #d9dce7;
+}    
+
+.sidemang-booking .div-wrapper-1 {
+    display: flex;
+    width: 205px;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 939px;
+    left: 770px;
+    border-radius: 40px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: var(--primary-color);
+  }
+
+.sidemang-booking .text-wrapper-17 {  
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--dispora-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+} 
+
+.sidemang-booking .text-wrapper-17-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--dispora-color);
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+
+.sidemang-booking .nav {  
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+    position: absolute;
+    top: 238px;
+    left: 598px;
+}   
+
+.sidemang-booking .booking-icon {  
+    position: relative;
+    width: 72px;
+    height: 72px;
+}    
+
+.sidemang-booking .text-wrapper-18 {  
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+}    
+
+.sidemang-booking .time-frame-2 {  
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 16px 32px;
+    position: absolute;
+    top: 1130px;
+    left: 1016px;
+    background-color: var(--primary-color);
+    border-radius: 40px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #d9dce7;
+}    
+
+.sidemang-booking .text-wrapper-19 {  
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;  line-height: 22.4px;  white-space: nowrap;
+}
+.sidemang-booking .text-wrapper-19-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--primary-color);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  .sidemang-booking .informasi {
+    display: inline-flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 16px;
+    position: absolute;
+    top: 384px;
+    left: 219px;
+  }
+
+  .sidemang-booking .informasi-pemesan {
+    gap: 10px;
+    padding: 24px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  .sidemang-booking .informasi-frame {
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .sidemang-booking .detail-pesanan {
+    display: flex;
+    flex-direction: column;
+    width: 472px;
+    align-items: flex-start;
+    gap: 24px;
+    padding: 24px;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 12px;
+  }
+
+  .sidemang-booking .text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+
+  .sidemang-booking .text-wrapper-18-1 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    margin-left: -10.5px;
+    margin-right: -10.5px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+
+  .sidemang-booking .text-wrapper-8-1 {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #1f1f1f;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 30px;
+    white-space: nowrap;
+  }
+
+  .siraga-lapangan {
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .siraga-lapangan .div {
+    background-color: #fdfdfd;
+    width: 1440px;
+    height: 1855px;
+    position: relative;
+  }
+  
+  .siraga-lapangan .navbar {
+    position: absolute;
+    width: 1440px;
+    height: 88px;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    box-shadow: var(--header-shadow);
+  }
+  
+  .siraga-lapangan .icon-frame {
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 4px;
+    position: absolute;
+    top: 24px;
+    left: 1043px;
+  }
+  
+  .siraga-lapangan .notification-icon {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-image: url(./img/notification-icon.svg);
+    background-size: 100% 100%;
+  }
+  
+  .siraga-lapangan .group {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    top: 6px;
+    left: 22px;
+  }
+  
+  .siraga-lapangan .overlap-group {
+    position: relative;
+    width: 14px;
+    height: 14px;
+    top: -1px;
+    left: -1px;
+    background-color: #cf3d57;
+    border-radius: 7px;
+    border: 1px solid;
+    border-color: #ffffff;
+  }
+  
+  .siraga-lapangan .element {
+    position: absolute;
+    width: 2px;
+    height: 7px;
+    top: 2px;
+    left: 5px;
+  }
+  
+  .siraga-lapangan .vector {
+    position: absolute;
+    width: 1px;
+    height: 36px;
+    top: 26px;
+    left: 1106px;
+  }
+  
+  .siraga-lapangan .group-2 {
+    position: absolute;
+    width: 209px;
+    height: 48px;
+    top: 20px;
+    left: 1131px;
+  }
+  
+  .siraga-lapangan .group-3 {
+    position: absolute;
+    width: 147px;
+    height: 39px;
+    top: 5px;
+    left: 0;
+  }
+  
+  .siraga-lapangan .text-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 16.8px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .group-4 {
+    position: absolute;
+    width: 147px;
+    height: 14px;
+    top: 25px;
+    left: 0;
+  }
+  
+  .siraga-lapangan .text-wrapper-2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .group-5 {
+    position: absolute;
+    width: 121px;
+    height: 14px;
+    top: 0;
+    left: 28px;
+  }
+  
+  .siraga-lapangan .text-wrapper-3 {
+    position: absolute;
+    top: 0;
+    left: 7px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #5a5a5a;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 14.4px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .mask-group {
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    top: 0;
+    left: 161px;
+  }
+  
+  .siraga-lapangan .siraga-icon {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    position: absolute;
+    top: 21px;
+    left: 100px;
+  }
+  
+  .siraga-lapangan .img {
+    position: relative;
+    width: 34.65px;
+    height: 46px;
+  }
+  
+  .siraga-lapangan .text-wrapper-4 {
+    position: relative;
+    width: fit-content;
+    font-family: "REBELTON-Medium-Regular", Helvetica;
+    font-weight: 400;
+    color: #f58465;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .group-wrapper {
+    position: absolute;
+    width: 1440px;
+    height: 70px;
+    top: 1785px;
+    left: 0;
+    background: linear-gradient(180deg, rgb(42, 144, 184) 0%, rgb(40.82, 117.55, 163.47) 39.48%, rgb(39, 77, 132) 100%);
+  }
+  
+  .siraga-lapangan .group-6 {
+    position: relative;
+    width: 540px;
+    height: 50px;
+    top: 10px;
+    left: 450px;
+  }
+  
+  .siraga-lapangan .div-wrapper {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    top: 0;
+    left: 213px;
+  }
+  
+  .siraga-lapangan .group-7 {
+    position: relative;
+    width: 176px;
+    height: 31px;
+    top: 10px;
+    left: 6px;
+  }
+  
+  .siraga-lapangan .dinas-komunikasi-dan {
+    position: absolute;
+    width: 137px;
+    height: 27px;
+    top: 4px;
+    left: 39px;
+  }
+  
+  .siraga-lapangan .logo-kominfo-without {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .group-8 {
+    position: absolute;
+    width: 189px;
+    height: 50px;
+    top: 0;
+    left: 0;
+  }
+  
+  .siraga-lapangan .group-9 {
+    position: relative;
+    width: 118px;
+    height: 32px;
+    top: 10px;
+    left: 30px;
+  }
+  
+  .siraga-lapangan .LOGO-KOTA-PALEMBANG {
+    position: absolute;
+    width: 26px;
+    height: 32px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .pemerintah-kota {
+    position: absolute;
+    width: 82px;
+    height: 28px;
+    top: 4px;
+    left: 36px;
+  }
+  
+  .siraga-lapangan .logo-bsre-wrapper {
+    position: absolute;
+    width: 113px;
+    height: 50px;
+    top: 0;
+    left: 426px;
+  }
+  
+  .siraga-lapangan .logo-bsre {
+    position: absolute;
+    width: 88px;
+    height: 35px;
+    top: 8px;
+    left: 13px;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .rectangle {
+    position: absolute;
+    height: 400px;
+    top: 120px;
+    left: 100px;
+    width: 1240px;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .content {
+    display: flex;
+    flex-direction: column;
+    width: 1240px;
+    align-items: flex-start;
+    gap: 32px;
+    position: absolute;
+    top: 552px;
+    left: 100px;
+  }
+  
+  .siraga-lapangan .header {
+    display: flex;
+    width: 1240px;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .text-frame {
+    align-items: flex-start;
+    gap: 12px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .label-frame {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .label {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 12px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #e9f2fe;
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .text-wrapper-5 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .ellipse {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    background-color: #e9f2fe;
+    border-radius: 5px;
+  }
+  
+  .siraga-lapangan .label-2 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 5px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: var(--dispora-color);
+  }
+  
+  .siraga-lapangan .share-icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+  }
+  
+  .siraga-lapangan .text-wrapper-6 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--dispora-color);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .text-wrapper-7 {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--tittle);
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .siraga-lapangan .frame {
+    align-items: center;
+    gap: 12px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .img-2 {
+    position: relative;
+    width: 24px;
+    height: 24px;
+  }
+  
+  .siraga-lapangan .p {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--body);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    text-decoration: underline;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .side-header {
+    display: flex;
+    flex-direction: column;
+    width: 384px;
+    align-items: flex-end;
+    justify-content: space-between;
+    position: relative;
+    align-self: stretch;
+  }
+  
+  .siraga-lapangan .text-frame-2 {
+    align-items: flex-end;
+    gap: 4px;
+    display: inline-flex;
+    flex-direction: column;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .text-wrapper-8 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: #72747c;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .rp-sesion {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--siraga-color-siraga-color);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 39.2px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .span {
+    color: #f58465;
+  }
+  
+  .siraga-lapangan .text-wrapper-9 {
+    color: #72747c;
+    font-size: 14px;
+    line-height: 19.6px;
+  }
+  
+  .siraga-lapangan .label-3 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 12px 16px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: var(--primary-color);
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .text-wrapper-10 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--siraga-color-white);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .separator {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .div-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .text-wrapper-11 {
+    align-self: stretch;
+    font-size: 24px;
+    line-height: 33.6px;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    letter-spacing: 0;
+  }
+  
+  .siraga-lapangan .deskripsi-group {
+    flex-wrap: wrap;
+    width: 1244px;
+    gap: 24px 32px;
+    flex: 0 0 auto;
+    margin-right: -4px;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .siraga-lapangan .deskripsi-frame {
+    gap: 12px;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .siraga-lapangan .text-frame-3 {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .text-wrapper-12 {
+    width: fit-content;
+    font-size: 16px;
+    line-height: 22.4px;
+    white-space: nowrap;
+    position: relative;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    letter-spacing: 0;
+  }
+  
+  .siraga-lapangan .text-wrapper-13 {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--tittle);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .deskripsi-group-2 {
+    display: flex;
+    width: 1244px;
+    align-items: flex-start;
+    gap: 80px;
+    position: relative;
+  }
+  
+  .siraga-lapangan .deskripsi-frame-2 {
+    width: 147px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .siraga-lapangan .deskripsi-frame-3 {
+    width: 168px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .siraga-lapangan .deskripsi-frame-4 {
+    width: 184px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    position: relative;
+  }
+  
+  .siraga-lapangan .header-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .text-wrapper-14 {
+    position: relative;
+    align-self: stretch;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--body);
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 25.2px;
+  }
+  
+  .siraga-lapangan .date-and-time-frame {
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .siraga-lapangan .date-and-time {
+    flex-direction: column;
+    flex: 1;
+    flex-grow: 1;
+    display: flex;
+    align-items: flex-start;
+    position: relative;
+  }
+  
+  .siraga-lapangan .date {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    border: 1px solid;
+    border-color: #d9dce7;
+  }
+  
+  .siraga-lapangan .time {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    padding: 10px 24px 10px 12px;
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    flex: 0 0 auto;
+    margin-top: -1px;
+    border: 1px solid;
+    border-color: #d9dce7;
+  }
+  
+  .siraga-lapangan .frame-2 {
+    align-items: center;
+    gap: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .ellipse-2 {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background-color: var(--siraga-color-jadwal-available);
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .text-wrapper-15 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .ellipse-3 {
+    background-color: var(--siraga-color-jadwal-booked);
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .date-and-time-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    position: relative;
+    flex: 1;
+    flex-grow: 1;
+    margin-left: -1px;
+  }
+  
+  .siraga-lapangan .ellipse-4 {
+    position: relative;
+    width: 12px;
+    height: 12px;
+    background-color: #64be7a;
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .ellipse-5 {
+    background-color: var(--dispora-color);
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .ellipse-6 {
+    background-color: #eb3323;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .ellipse-7 {
+    background-color: #f58465;
+    position: relative;
+    width: 12px;
+    height: 12px;
+    border-radius: 6px;
+  }
+  
+  .siraga-lapangan .separator-2 {
+    position: relative;
+    align-self: stretch;
+    width: 100%;
+    height: 1px;
+    margin-bottom: -0.5px;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .map {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .rectangle-2 {
+    position: relative;
+    height: 290px;
+    width: 1240px;
+    object-fit: cover;
+  }
+  
+  .siraga-lapangan .label-4 {
+    display: flex;
+    width: 1240px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 24px;
+    position: absolute;
+    top: 222px;
+    left: 0;
+    background-color: #0c0c0c66;
+    border-radius: 0px 0px 12px 12px;
+    backdrop-filter: blur(10px) brightness(100%);
+    -webkit-backdrop-filter: blur(10px) brightness(100%);
+  }
+  
+  .siraga-lapangan .text-wrapper-16 {
+    position: relative;
+    width: fit-content;
+    font-family: "Segoe UI-Regular", Helvetica;
+    font-weight: 400;
+    color: var(--siraga-color-white);
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 22.4px;
+    white-space: nowrap;
+  }
+  
+  .siraga-lapangan .button {
+    all: unset;
+    box-sizing: border-box;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 6px 10px;
+    position: relative;
+    flex: 0 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    border: 1px solid;
+    border-color: var(--siraga-color-siraga-color);
+  }
+  
+  .siraga-lapangan .frame-3 {
+    align-items: flex-start;
+    gap: 8px;
+    display: inline-flex;
+    position: relative;
+    flex: 0 0 auto;
+  }
+  
+  .siraga-lapangan .text-wrapper-17 {
+    position: relative;
+    width: fit-content;
+    margin-top: -1px;
+    font-family: "Segoe UI-Semibold", Helvetica;
+    font-weight: 400;
+    color: var(--siraga-color-siraga-color);
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 19.6px;
+    white-space: nowrap;
+  }
+
+  .minimal-calendar {
+    width: 590px; /* Set your desired width */
+    margin-top: 2px;
+}
+
+/* Adjust the size of the FullCalendar title */
+.fc-header-toolbar h2 {
+  font-size: 24px; /* Change the font size as needed */
+}

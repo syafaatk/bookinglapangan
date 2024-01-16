@@ -1,0 +1,19 @@
+:root {
+  --tittle: rgba(32, 32, 32, 1);
+  --primary-color: rgba(29, 130, 170, 1);
+  --body: rgba(32, 32, 32, 0.8);
+  --icon-color: rgba(18, 18, 18, 1);
+  --date-past-color: rgba(175, 178, 189, 1);
+  --dispora-color: rgba(245, 132, 101, 1);
+  --white: rgba(255, 255, 255, 1);
+  --shadow: 0px 4px 20px 2px rgba(0, 0, 0, 0.04);
+  --shadow-card: 0px 4px 6px 0px rgba(17, 17, 17, 0.05), 0px 0px 4px 1px rgba(17, 17, 17, 0.04);
+  --shadow-card-2: 0px 2px 4px -1px rgba(0, 0, 0, 0.06), 0px 4px 6px -1px rgba(0, 0, 0, 0.1);
+  --shadow-card-3: 0px 8px 50px 0px rgba(148, 148, 148, 0.1);
+  --navbar-shadow: 0px 0.33000001311302185px 0px 0px rgba(208, 209, 211, 1);
+  --header-shadow: 0px 0.33000001311302185px 0px 0px rgba(208, 209, 211, 1);
+  --siraga-color-white: rgba(255, 255, 255, 1);
+  --siraga-color-siraga-color: rgba(245, 132, 101, 1);
+  --siraga-color-jadwal-available: rgba(100, 190, 122, 1);
+  --siraga-color-jadwal-booked: rgba(235, 51, 35, 1);
+}

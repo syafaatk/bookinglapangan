@@ -1,0 +1,137 @@
+<div class="sidemang-booking">
+      <div class="div">
+        <div class="navbar">
+          <div class="icon-frame">
+            <div class="notification-icon">
+              <div class="group">
+                <div class="overlap-group"><img class="element" src="/assets/img/bookingtwo/1.svg" /></div>
+              </div>
+            </div>
+          </div>
+          <img class="vector" src="/assets/img/bookingtwo/vector-196.svg" />
+          <div class="group-2">
+            <div class="group-3">
+              <div class="text-wrapper">Harry Maguire, S.Kom</div>
+              <div class="group-4">
+                <div class="text-wrapper-2">NIK</div>
+                <div class="group-5">
+                  <div class="text-wrapper-3">16712325848493033</div>
+                  <div class="text-wrapper-2">:</div>
+                </div>
+              </div>
+            </div>
+            <img class="mask-group" src="/assets/img/bookingtwo/mask-group.png" />
+          </div>
+          <div class="siraga-icon">
+            <img class="img" src="/assets/img/bookingtwo/group-771349.png" />
+            <div class="text-wrapper-4">Siraga</div>
+          </div>
+        </div>
+        <div class="overlap-wrapper">
+          <div class="overlap">
+            <img class="vector-2-1" src="/assets/img/bookingtwo/vector-1.svg" />
+            <img class="vector-3" src="/assets/img/bookingtwo/vector-2.svg" />
+            <div class="frame">
+              {{#if breadcrumb}}
+                  {{#each breadcrumb}}
+                  <div class="flow-frame">
+                    <div class="ellipse-1-{{@index}}"></div>
+                    <a href="{{this.link}}"><div class="text-wrapper-5-{{@index}}">{{this.text}}</div></a>
+                  </div>
+                  {{/each}}
+              {{/if}}
+              <div class="flow-frame">
+                <div class="ellipse-2"></div>
+                <div class="text-wrapper-7-1">Pembayaran</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav">
+          <img class="booking-icon" src="/assets/img/bookingtwo/booking-icon.svg" />
+          <div class="text-wrapper-8-1">Booking Lapangan Segera!</div>
+        </div>
+        <form action="/booking/2" method="post">
+        <div class="informasi">
+          <div class="frame-2-1">
+                <!-- Display errors if any -->
+                {{#if booking}}
+                    <div style="color: red;">
+                        {{#if booking.errors.city}}
+                            {{booking.errors.city.message}}<br>
+                        {{/if}}
+                        {{#if booking.errors.email}}
+                            {{booking.errors.email.message}}<br>
+                        {{/if}}
+                    </div>
+                {{/if}}
+                
+            <div class="informasi-pemesan">
+              <div class="alert"><p class="p-1">Untuk menyimpan reservasi Anda, kami memerlukan data diri anda.</p></div>
+              <div class="informasi-frame">
+                <div class="text-wrapper-9-1">Informasi Pemesan</div>
+                <div class="field-frame-1">
+                  <div class="form-field">
+                    <p class="label"><span class="span">Nama Pemesan</span> <span class="text-wrapper-10-1">*</span></p>
+                    <input type="text" id="fullName" class="form-control form-atom-value" name="fullName" value="{{formDataStep1.fullName}}" placeholder="Masukan Nama Pemesan">
+                  </div>
+                  <div class="form-field">
+                    <p class="label"><span class="span">Contact Person</span> <span class="text-wrapper-10-1">*</span></p>
+                    <input type="text" id="mobile" class="form-control form-atom-value" name="mobile" value="{{formDataStep1.mobile}}" placeholder="Masukkan Nomor Handphone">
+                  </div>
+                  <div class="form-field">
+                    <p class="label"><span class="span">Email</span> <span class="text-wrapper-10-1">*</span></p>
+                    <input type="email" id="email" class="form-control form-atom-value" name="email" value="{{formDataStep1.email}}" placeholder="Masukkan Email">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="informasi-pemesan">
+              <div class="informasi-frame">
+                <div class="text-wrapper-9-1">Catatan</div>
+                <div class="field-frame-1">
+                  <div class="form-field">
+                    <div class="label-2">Catatan Pemesan</div>
+                    <input type="text" id="catatan" class="form-control form-atom-value" name="catatan" value="{{formDataStep1.catatan}}" placeholder="Masukkan Catatan">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="detail-pesanan">
+            <div class="text-wrapper-9-1">Detail Lapangan</div>
+            <div class="header-frame-1">
+              <img class="image-1" src="/assets/img/bookingtwo/image.png" />
+              <div class="text-frame-1">
+                <div class="text-wrapper-11-1">Lapangan Bola Kamboja</div>
+                <div class="lokasi">
+                  <div class="text-wrapper-12-1">Lokasi Lapangan:</div>
+                  <p class="text-wrapper-13-1">
+                    Jl. Mayor Santoso, 20 Ilir D. III, Kec. Ilir Tim. I, Kota Palembang, Sumatera Selatan 30129
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="rectangle-1"></div>
+            <div class="text">
+              <div class="text-frame-2">
+                <div class="text-wrapper-14">Tanggal Pemesanan</div>
+                <div class="text-wrapper-15">23 Agustus 2023</div>
+              </div>
+              <div class="text-frame-2">
+                <div class="text-wrapper-14-1">Waktu Dipesan</div>
+                <div class="text-wrapper-15-1">06:00 - 12:00</div>
+              </div>
+            </div>
+            <div class="rectangle-1"></div>
+            <div class="text-frame-2">
+              <div class="text-wrapper-16-1">Total</div>
+              <div class="text-wrapper-17-1">IDR 1.015.000</div>
+            </div>
+          </div>
+        </div>
+        <button type="submit"><div class="time-frame-1"><div class="text-wrapper-18-1">Lanjut Ke Pembayaran</div></div></button>
+     </form>
+        <a href="/booking/1"><div class="div-wrapper-1"><div class="text-wrapper-19-1">Kembali</div></div></a>
+      </div>
+    </div>

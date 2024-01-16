@@ -1,0 +1,218 @@
+<div class="sidemang-booking">
+      <div class="div">
+        <div class="navbar">
+          <div class="icon-frame">
+            <div class="notification-icon">
+              <div class="group">
+                <div class="overlap-group"><img class="element" src="/assets/img/bookingone/1.svg" /></div>
+              </div>
+            </div>
+          </div>
+          <img class="vector" src="/assets/img/bookingone/vector-196.svg" />
+          <div class="group-2">
+            <div class="group-3">
+              <div class="text-wrapper">Harry Maguire, S.Kom</div>
+              <div class="group-4">
+                <div class="text-wrapper-2">NIK</div>
+                <div class="group-5">
+                  <div class="text-wrapper-3">16712325848493033</div>
+                  <div class="text-wrapper-2">:</div>
+                </div>
+              </div>
+            </div>
+            <img class="mask-group" src="/assets/img/bookingone/mask-group.png" />
+          </div>
+          <div class="siraga-icon">
+            <img class="img" src="/assets/img/bookingone/group-771349.png" />
+            <div class="text-wrapper-4">Siraga</div>
+          </div>
+        </div>
+        <div class="overlap-wrapper">
+          <div class="overlap">
+            <img class="vector-2" src="/assets/img/bookingone/vector-1.svg" />
+            <div class="frame">
+              <div class="flow-frame">
+                <div class="ellipse"></div>
+                {{#if breadcrumb}}
+                    <ul>
+                        {{#each breadcrumb}}
+                            <a href="{{this.link}}"><div class="text-wrapper-5">{{this.text}}</div></a>
+                        {{/each}}
+                    </ul>
+                {{/if}}
+              </div>
+              <div class="flow-frame">
+                <div class="ellipse-2"></div>
+                <div class="text-wrapper-6">Informasi Pemesan</div>
+              </div>
+              <div class="flow-frame">
+                <div class="ellipse-3"></div>
+                <div class="text-wrapper-6">Pembayaran</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <form action="/booking/1" method="post">
+        <div class="frame-2">
+          <div class="date-frame">
+            <div class="div-2">
+              <header class="header">
+                <img class="image" src="/assets/img/bookingone/image-6.png" />
+                <p class="p">Pilih tanggal booking lapangan yang anda inginkan</p>
+              </header>
+              <input type="text" id="tanggal_booking" class="datepicker" name="tanggal_booking" value="{{booking.tanggal_booking}}" required>      
+              <div id="fullCalendar" class="div-2 minimal-calendar"></div>
+            </div>
+          </div>
+          <div class="lokasi-dan-waktu">
+            <div class="div-4">
+              <div class="text-wrapper-13">Pilih Lapangan</div>
+              <div class="lap-frame">
+                <div class="lapangan-frame">
+                    <div class="field-frame">
+                        <!-- Radio button input -->
+                        <input type="radio" id="lapangan1" name="lapanganId" value="ObjectId1" data-name="Lapangan Bola Kamboja" data-harga="1015000" data-lokasi="Mayor Santoso" data-kota="Palembang" required onchange="updateHarga()">
+
+                        <!-- Image and text content -->
+                        <img class="rectangle" src="/assets/img/bookingone/rectangle-10751-3.png" />
+                        <div class="text-frame">
+                            <div class="text-wrapper-14">Lapangan Bola Kamboja</div>
+                            <div class="text-wrapper-15">Mayor Santoso, Palembang</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="lapangan-frame">
+                  <div class="field-frame">
+                      <input type="radio" id="lapangan2" name="lapanganId" value="ObjectId2" data-name="Lapangan Bola Hatta" data-harga="1020000" data-lokasi="Taman Siswa" data-kota="Palembang" required onchange="updateHarga()">
+                    <img class="rectangle" src="/assets/img/bookingone/rectangle-10751-2.png" />
+                    <div class="text-frame">
+                      <div class="text-wrapper-14">Lapangan Bola Hatta</div>
+                      <div class="text-wrapper-15">Taman Siswa, Palembang</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lapangan-frame">
+                  <div class="field-frame">
+                    <input type="radio" id="lapangan3" name="lapanganId" value="ObjectId3" data-name="Lapangan Bulu Tangkis Cempako" data-harga="1025000" data-lokasi="26 Ilir" data-kota="Palembang" required onchange="updateHarga()">
+                    <img class="rectangle" src="/assets/img/bookingone/rectangle-10751-1.png" />
+                    <div class="text-frame">
+                      <div class="text-wrapper-14">Lapangan Bulu Tangkis Cempako</div>
+                      <div class="text-wrapper-15">26 Ilir, Palembang</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="lapangan-frame">
+                  <div class="field-frame">
+                    <input type="radio" id="lapangan4" name="lapanganId" value="ObjectId4" data-name="Lapangan Bulu Tenis Bhakti" data-harga="1030000" data-lokasi="Jl. Eka Bhakti" data-kota="Palembang" required onchange="updateHarga()">
+                    <img class="rectangle" src="/assets/img/bookingone/rectangle-10751.png" />
+                    <div class="text-frame">
+                      <div class="text-wrapper-14">Lapangan Tenis Bhakti</div>
+                      <div class="text-wrapper-15">Jl Eka Bhakti, Palembang</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <input type="hidden" class="form-control" id="lapanganName" name="lapanganName" value="{{booking.lapanganName}}" required>
+            <input type="hidden" class="form-control" id="lapanganLokasi" name="lapanganLokasi" value="{{booking.lapanganLokasi}}" required>
+            <input type="hidden" class="form-control" id="lapanganHarga" name="lapanganHarga" value="{{booking.lapanganHarga}}" required>
+            <input type="hidden" class="form-control" id="lapanganKota" name="lapanganKota" value="{{booking.lapanganKota}}" required>
+
+            <script>
+                function updateHarga() {
+                    const radioButtons = document.getElementsByName('lapanganId');
+                    const nameInput = document.getElementById('lapanganName');
+                    const lokasiInput = document.getElementById('lapanganLokasi');
+                    const hargaInput = document.getElementById('lapanganHarga');
+                    const kotaInput = document.getElementById('lapanganKota');
+
+                    // Find the selected radio button
+                    const selectedRadioButton = Array.from(radioButtons).find(radio => radio.checked);
+
+                    if (selectedRadioButton) {
+                        const name = selectedRadioButton.getAttribute('data-name');
+                        const harga = selectedRadioButton.getAttribute('data-harga');
+                        const lokasi = selectedRadioButton.getAttribute('data-lokasi');
+                        const kota = selectedRadioButton.getAttribute('data-kota');
+
+                        hargaInput.value = harga;
+                        lokasiInput.value = lokasi;
+                        kotaInput.value = kota;
+                        nameInput.value = name;
+                    } else {
+                        // Handle the case when no radio button is selected
+                        hargaInput.value = '';
+                        lokasiInput.value = '';
+                        kotaInput.value = '';
+                        nameInput.value = '';
+                    }
+                }
+            </script>
+            <div class="div-4">
+              <div class="header-frame">
+                <div class="text-wrapper-13">Pilih Waktu Pemesanan</div>
+                <p class="text-wrapper-16">Silahkan pilih lapangan terlebih dahulu</p>
+              </div>
+              <div class="time-frame">
+                <div class="div-wrapper button-group">
+                  <input type="radio" id="waktu06-12" name="waktu_pemesanan" value="06:00 - 12:00" required>
+                  <label for="waktu06-12" class="styled-button">06:00 - 12:00</label>
+                </div>
+                <div class="div-wrapper button-group">
+                  <input type="radio" id="waktu12-18" name="waktu_pemesanan" value="12:00 - 18:00" required>
+                  <label for="waktu12-18" class="styled-button">12:00 - 18:00</label>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav">
+          <img class="booking-icon" src="/assets/img/bookingone/booking-icon.svg" />
+          <div class="text-wrapper-18">{{viewTitle}}</div>
+        </div>
+        
+        <button type="submit"><div class="time-frame-2"><div class="text-wrapper-19">Lanjut Ke Informasi</div></div></button>
+    </form>
+      </div>
+    </div>
+
+<!-- Initialize FullCalendar -->
+<script>
+    $(document).ready(function () {
+        // Initialize FullCalendar
+        $('#fullCalendar').fullCalendar({
+            header: {
+                left: 'prev,next today',
+                center: 'title',
+                right: 'month'
+            },
+            defaultView: 'month',
+            editable: true,
+            eventLimit: true, // allow "more" link when too many events
+            events: [
+                // Your events data can go here
+                // Example: { title: 'Event 1', start: '2023-08-01' }
+            ],
+            dateClick: function (info) {
+                // Log to console for debugging purposes
+                console.log('Clicked on:', info.dateStr);
+
+                // Set the selected date in the Datepicker
+                $('.datepicker').datepicker('setDate', info.dateStr);
+            }
+        });
+
+        // Initialize Datepicker
+        $('.datepicker').datepicker({
+            format: 'yyyy-mm-dd',
+            autoclose: true,
+            onSelect: function (dateText, inst) {
+                // Log to console for debugging purposes
+                console.log('Selected date:', dateText);
+                // Update FullCalendar view when selecting a date in Datepicker
+                $('#fullCalendar').fullCalendar('gotoDate', dateText);
+            }
+        });
+    });
+</script>

@@ -1,0 +1,84 @@
+<h3>{{viewTitle}}</h3>
+
+<form action="/booking" method="POST" autocomplete="off">
+    <input type="hidden" name="_id" value="{{booking._id}}">
+    
+    <div class="form-group">
+        <label for="fullName">Full Name</label>
+        <input type="text" class="form-control" name="fullName" id="fullName" placeholder="Full Name" value="{{booking.fullName}}">
+        <div class="text-danger">{{booking.fullNameError}}</div>
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Email</label>
+        <input type="text" class="form-control" name="email" id="email" placeholder="Email" value="{{booking.email}}">
+        <div class="text-danger">{{booking.emailError}}</div>
+    </div>
+    
+    <div class="form-group">
+        <label for="tanggal_booking">Tanggal Booking:</label>
+        <input type="date" class="form-control" id="tanggal_booking" name="tanggal_booking" value="{{booking.tanggal_booking}}" required>
+    </div>
+    
+    <hr>
+    
+    <div class="form-group">
+        <label for="lapangan">Pilih Lapangan:</label>
+        <select id="lapangan" class="form-control" name="lapanganId" required onchange="updateHarga()">
+            <option value="ObjectId1" data-name="Lapangan Bola Kamboja" data-harga="1015000" data-lokasi="Mayor Santoso" data-kota="Palembang">Lapangan Bola Kamboja</option>
+            <option value="ObjectId2" data-name="Lapangan Bola Hatta" data-harga="1020000" data-lokasi="Taman Siswa" data-kota="Palembang">Lapangan Bola Hatta</option>
+            <option value="ObjectId3" data-name="Lapangan Bulu Tangkis Cempako" data-harga="1025000" data-lokasi="26 Ilir" data-kota="Palembang">Lapangan Bulu Tangkis Cempako</option>
+            <option value="ObjectId4" data-name="Lapangan Bulu Tenis Bhakti" data-harga="1030000" data-lokasi="Jl. Eka Bhakti" data-kota="Palembang">Lapangan Bulu Tenis Bhakti</option>
+            <!-- Add more options as needed -->
+        </select>
+    </div>
+    
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="mobile">Contact Person</label>
+            <input type="text" class="form-control" name="mobile" id="mobile" placeholder="Mobile" value="{{booking.mobile}}">
+        </div>
+    </div>
+    
+    <div class="form-group">
+        <label for="waktu_pemesanan">Waktu Pemesanan:</label>
+        <select id="waktu_pemesanan" name="waktu_pemesanan" class="form-control" required>
+            <option value="06:00 - 12:00">06:00 - 12:00</option>
+            <option value="12:00 - 18:00">12:00 - 18:00</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="catatan">Catatan</label>
+        <input type="text" class="form-control" name="catatan" id="catatan" placeholder="Catatan" value="{{booking.catatan}}">
+    </div>
+    
+    <input type="text" class="form-control" id="lapanganName" name="lapanganName" value="{{booking.lapanganName}}" required>
+    <input type="text" class="form-control" id="lapanganLokasi" name="lapanganLokasi" value="{{booking.lapanganLokasi}}" required>
+    <input type="text" class="form-control" id="lapanganHarga" name="lapanganHarga" value="{{booking.lapanganHarga}}" required>
+    <input type="text" class="form-control" id="lapanganKota" name="lapanganKota" value="{{booking.lapanganKota}}" required>
+
+    <script>
+        function updateHarga() {
+            const lapanganSelect = document.getElementById('lapangan');
+            const nameInput = document.getElementById('lapanganName');
+            const lokasiInput = document.getElementById('lapanganLokasi');
+            const hargaInput = document.getElementById('lapanganHarga');
+            const kotaInput = document.getElementById('lapanganKota');
+            const selectedOption = lapanganSelect.options[lapanganSelect.selectedIndex];
+            const name = selectedOption.getAttribute('data-name');
+            const harga = selectedOption.getAttribute('data-harga');
+            const lokasi = selectedOption.getAttribute('data-lokasi');
+            const kota = selectedOption.getAttribute('data-kota');
+            hargaInput.value = harga;
+            lokasiInput.value = lokasi;
+            kotaInput.value = kota;
+            nameInput.value = name;
+        }
+    </script>
+    
+    <div class="form-group">
+        <button type="submit" class="btn btn-info"><i class="fa fa-database"></i> Submit</button>
+        <a class="btn btn-secondary" href="/booking/list"><i class="fa fa-list-alt"></i> View All</a>
+    </div>
+</form>
